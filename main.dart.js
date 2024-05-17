@@ -76713,45 +76713,43 @@ A.mI.prototype={
 al(){var s=A.nQ()
 return new A.LZ(s,new A.Jp(B.xB,$.ap()),B.k)}}
 A.LZ.prototype={
-M(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="lib/images/leetcode.png",g=t.w
-A.bb(a,i,g).toString
-s=A.bb(a,i,g).w.a.a
-j.e.R(new A.a9H(j))
-g=A.i8(B.eW,B.i,i,i)
-r=A.bp(i,i,7)
-q=s>600
-p=q?20:15
-o=t.F
-p=A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([g,r,new A.bC("Home",p,i)],o),B.J,B.F,B.B),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9I(a),i,i,i,i)
-r=A.i8(B.eV,B.i,i,i)
-g=A.bp(i,i,7)
-g=A.cM(A.a([p,A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([r,g,new A.bC("Experiments",q?20:15,i)],o),B.J,B.F,B.B),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9J(a),i,i,i,i)],o),B.J,B.F,B.B)
-r=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/youtube.png",i,B.a9,q?1:25),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9K(),i,i,i,i)
-p=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/github.png",i,B.a9,q?1:25),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9L(),i,i,i,i)
-g=A.SL(A.a([r,p,A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc(h,i,B.a9,q?1:25),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9M(),i,i,i,i)],o),A.M(255,29,29,29),g)
-r=j.d
-r=A.HB(0,A.dc("lib/images/background.png",B.dd,B.dx,i),r)
-p=j.a.c
-n=A.a6L(A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc(h,i,B.a9,14),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9N(j),i,i,i,i),"Open Link In LeetCode")
-q=p.a
-m=q===0
-if(m)l=A.M(255,22,131,40)
-else l=q===1?A.M(255,224,170,20):A.M(255,226,13,13)
-k=A.eV(new A.ac(25,25))
-if(m)q="easy"
-else q=q===1?"medium":"hard"
-k=A.dp(i,A.cM(A.a([new A.bC(p.b,30,i),new A.hw(i),n,A.dp(i,new A.bC(q,20,i),B.t,i,new A.cl(l,i,i,k,i,i,B.az),i,i,new A.ad(10,10,10,10),i)],o),B.J,B.F,B.B),B.t,i,i,i,i,new A.ad(15,10,15,10),i)
-l=A.al4()
-q=A.dC(i,i,B.i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
-n=j.a.c.d[0]
-p=A.dC(i,i,B.A5,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
-m=A.dC(i,i,B.i,i,i,i,i,i,i,i,i,15,i,i,B.bE,i,i,!0,i,i,i,i,i,i,i,i)
-m=A.am9(i,new A.hi(4,A.eV(new A.ac(20,20)),B.kD),i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,n,i,i,i,i,i,i,i,m,"Input",i,i,i,i,i,i,i,i,i,i,i,i,i)
-q=A.cM(A.a([A.bp(new A.ym(j.f,m,B.Ll,q,!1,B.Kj,B.Kk,!0,i),50,s/1.5),A.bp(i,i,s/30),A.bZ(!1,!0,A.dp(i,new A.bC("Enter",20,i),B.t,i,new A.cl(B.ry,i,i,A.eV(new A.ac(20,20)),i,i,B.az),i,i,new A.ad(10,10,10,10),i),i,!0,i,i,i,i,i,i,i,i,i,new A.a9O(j),i,i,i,i)],o),B.J,B.j7,B.B)
-p=A.bp(i,10,i)
-n=j.r
-n=n==null?new A.bC("",30,i):new A.bC(n,30,i)
-return A.a3c(g,B.l,A.it(B.bA,A.a([r,A.fw(A.a([k,new A.bs(B.C_,l,i),new A.hw(i),q,p,n,new A.hw(i),new A.hw(i)],o),B.J,B.F,B.B)],o),B.a2,B.bK))}}
+M(a){var s,r,q,p,o,n,m,l=this,k=null,j="lib/images/leetcode.png",i=t.w,h=A.bb(a,k,i).w,g=A.bb(a,k,i).w.a.a
+l.e.R(new A.a9H(l))
+i=A.i8(B.eW,B.i,k,k)
+s=A.bp(k,k,7)
+h=g>h.a.b
+r=h?20:15
+q=t.F
+r=A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([i,s,new A.bC("Home",r,k)],q),B.J,B.F,B.B),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9I(a),k,k,k,k)
+s=A.i8(B.eV,B.i,k,k)
+i=A.bp(k,k,7)
+i=A.cM(A.a([r,A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([s,i,new A.bC("Experiments",h?20:15,k)],q),B.J,B.F,B.B),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9J(a),k,k,k,k)],q),B.J,B.F,B.B)
+s=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/youtube.png",k,B.a9,h?1:25),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9K(),k,k,k,k)
+r=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/github.png",k,B.a9,h?1:25),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9L(),k,k,k,k)
+i=A.SL(A.a([s,r,A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc(j,k,B.a9,h?1:25),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9M(),k,k,k,k)],q),A.M(255,29,29,29),i)
+s=l.d
+s=A.HB(0,A.dc("lib/images/background.png",B.dd,B.dx,k),s)
+r=l.a.c
+p=A.a6L(A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc(j,k,B.a9,14),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9N(l),k,k,k,k),"Open Link In LeetCode")
+h=r.a
+o=h===0
+if(o)n=A.M(255,22,131,40)
+else n=h===1?A.M(255,224,170,20):A.M(255,226,13,13)
+m=A.eV(new A.ac(25,25))
+if(o)h="easy"
+else h=h===1?"medium":"hard"
+m=A.dp(k,A.cM(A.a([new A.bC(r.b,30,k),new A.hw(k),p,A.dp(k,new A.bC(h,20,k),B.t,k,new A.cl(n,k,k,m,k,k,B.az),k,k,new A.ad(10,10,10,10),k)],q),B.J,B.F,B.B),B.t,k,k,k,k,new A.ad(15,10,15,10),k)
+n=A.al4()
+h=A.dC(k,k,B.i,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k)
+p=l.a.c.d[0]
+r=A.dC(k,k,B.A5,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k)
+o=A.dC(k,k,B.i,k,k,k,k,k,k,k,k,15,k,k,B.bE,k,k,!0,k,k,k,k,k,k,k,k)
+o=A.am9(k,new A.hi(4,A.eV(new A.ac(20,20)),B.kD),k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,r,p,k,k,k,k,k,k,k,o,"Input",k,k,k,k,k,k,k,k,k,k,k,k,k)
+h=A.cM(A.a([A.bp(new A.ym(l.f,o,B.Ll,h,!1,B.Kj,B.Kk,!0,k),50,g/1.5),A.bp(k,k,g/30),A.bZ(!1,!0,A.dp(k,new A.bC("Enter",20,k),B.t,k,new A.cl(B.ry,k,k,A.eV(new A.ac(20,20)),k,k,B.az),k,k,new A.ad(10,10,10,10),k),k,!0,k,k,k,k,k,k,k,k,k,new A.a9O(l),k,k,k,k)],q),B.J,B.j7,B.B)
+r=A.bp(k,10,k)
+p=l.r
+p=p==null?new A.bC("",30,k):new A.bC(p,30,k)
+return A.a3c(i,B.l,A.it(B.bA,A.a([s,A.fw(A.a([m,new A.bs(B.C_,n,k),new A.hw(k),h,r,p,new A.hw(k),new A.hw(k)],q),B.J,B.F,B.B)],q),B.a2,B.bK))}}
 A.a9H.prototype={
 $0(){var s=this.a,r=B.b.gbN(s.e.f).at
 r.toString
@@ -76804,32 +76802,30 @@ $S:0}
 A.i5.prototype={
 al(){return new A.LY(A.nQ(),new A.ic(B.b9,B.bh,B.ax,A.a([B.cd,B.ce,B.cg],t.W),null,null).md(new A.p(50,50,350,70)),B.k)}}
 A.LY.prototype={
-M(a){var s,r,q,p,o,n,m,l,k,j=null,i=t.w
-A.bb(a,j,i).toString
-s=A.bb(a,j,i).w.a.a
-i=this.e
-i.R(new A.a9v(this))
-r=A.i8(B.eW,B.i,j,j)
-q=A.bp(j,j,7)
-p=s>600
-o=p?20:15
-n=t.F
-o=A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([r,q,new A.bC("Home",o,j)],n),B.J,B.F,B.B),j),j,!0,j,j,j,j,j,j,j,j,j,new A.a9w(a),j,j,j,j)
-q=A.i8(B.eV,B.i,j,j)
-r=A.bp(j,j,7)
-r=A.cM(A.a([o,A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([q,r,new A.bC("Experiments",p?20:15,j)],n),B.J,B.F,B.B),j),j,!0,j,j,j,j,j,j,j,j,j,new A.a9x(a),j,j,j,j)],n),B.J,B.F,B.B)
-q=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/youtube.png",j,B.a9,p?1:25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.a9y(),j,j,j,j)
-o=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/github.png",j,B.a9,p?1:25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.a9z(),j,j,j,j)
-r=A.SL(A.a([q,o,A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/leetcode.png",j,B.a9,p?1:25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.a9A(),j,j,j,j)],n),A.M(255,29,29,29),r)
-q=this.d
-q=A.HB(0,A.dc("lib/images/background.png",B.dd,B.dx,j),q)
-o=B.c.bb(s/400)
-m=A.a([],n)
-for(l=0;p=$.akg(),l<2;++l)m.push(A.ly(A.oO(A.kr(new A.Fa(p[l],j)),100,0),1.5,0))
-p=A.anB(m,!0,!0,!0)
-m=m.length
-k=j
-return A.a3c(r,B.l,A.it(B.bA,A.a([q,new A.FD(new A.a4P(o,40,25),p,new A.ad(25,25,25,25),B.aZ,!1,i,j,k,!1,j,m,B.aI,B.wD,j,B.a2,j)],n),B.a2,B.Kq))}}
+M(a){var s,r,q,p,o,n,m,l=null,k=t.w,j=A.bb(a,l,k).w,i=A.bb(a,l,k).w.a.a
+k=this.e
+k.R(new A.a9v(this))
+s=A.i8(B.eW,B.i,l,l)
+r=A.bp(l,l,7)
+j=i>j.a.b
+q=j?20:15
+p=t.F
+q=A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([s,r,new A.bC("Home",q,l)],p),B.J,B.F,B.B),l),l,!0,l,l,l,l,l,l,l,l,l,new A.a9w(a),l,l,l,l)
+r=A.i8(B.eV,B.i,l,l)
+s=A.bp(l,l,7)
+s=A.cM(A.a([q,A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([r,s,new A.bC("Experiments",j?20:15,l)],p),B.J,B.F,B.B),l),l,!0,l,l,l,l,l,l,l,l,l,new A.a9x(a),l,l,l,l)],p),B.J,B.F,B.B)
+r=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/youtube.png",l,B.a9,j?1:25),l),l,!0,l,l,l,l,l,l,l,l,l,new A.a9y(),l,l,l,l)
+q=A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/github.png",l,B.a9,j?1:25),l),l,!0,l,l,l,l,l,l,l,l,l,new A.a9z(),l,l,l,l)
+s=A.SL(A.a([r,q,A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/leetcode.png",l,B.a9,j?1:25),l),l,!0,l,l,l,l,l,l,l,l,l,new A.a9A(),l,l,l,l)],p),A.M(255,29,29,29),s)
+r=this.d
+r=A.HB(0,A.dc("lib/images/background.png",B.dd,B.dx,l),r)
+q=B.c.bb(i/400)
+o=A.a([],p)
+for(n=0;j=$.akg(),n<2;++n)o.push(A.ly(A.oO(A.kr(new A.Fa(j[n],l)),100,0),1.5,0))
+j=A.anB(o,!0,!0,!0)
+o=o.length
+m=l
+return A.a3c(s,B.l,A.it(B.bA,A.a([r,new A.FD(new A.a4P(q,40,25),j,new A.ad(25,25,25,25),B.aZ,!1,k,l,m,!1,l,o,B.aI,B.wD,l,B.a2,l)],p),B.a2,B.Kq))}}
 A.a9v.prototype={
 $0(){var s=this.a,r=B.b.gbN(s.e.f).at
 r.toString
@@ -76871,7 +76867,7 @@ r=A.cM(A.a([A.bZ(!1,!0,new A.bs(B.ch,A.cM(A.a([A.i8(B.eW,B.i,j,j),A.bp(j,j,7),A.
 r=A.SL(A.a([A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/youtube.png",j,B.a9,25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.aby(),j,j,j,j),A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/github.png",j,B.a9,25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.abz(),j,j,j,j),A.bZ(!1,!0,new A.bs(new A.ad(12,12,12,12),A.dc("lib/images/leetcode.png",j,B.a9,25),j),j,!0,j,j,j,j,j,j,j,j,j,new A.abA(),j,j,j,j)],s),A.M(255,29,29,29),r)
 q=this.e
 q=A.HB(0,A.dc("lib/images/background.png",B.dd,B.dx,j),q)
-p=A.bp(A.Ff(A.ly(A.oO(A.kr(new A.bC("Hello, there",70,j)),100,0),1.5,0),B.dd),j,g/5)
+p=A.Ff(A.bp(A.ly(A.oO(A.kr(new A.bC("Hello, there",70,j)),100,0),1.5,0),j,g),B.dd)
 o=A.ly(A.oO(A.kr(A.cM(A.a([new A.bC("I am ",55,j),A.v1(55,"Zaid"),new A.bC(".",55,j)],s),B.J,B.F,B.B)),100,0),1.5,0)
 n=A.eV(new A.ac(25,25))
 m=$.X().l_(50,25,B.ax)
